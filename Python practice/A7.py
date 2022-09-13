@@ -27,6 +27,6 @@ def createDominos(maxValue: int) -> list:
             outList.append((i+1, j+1))
         outList.append((i+1, i+1))
 
-    print(outList)
+    return outList
 
-createDominos(6)
+print(createDominos(6))

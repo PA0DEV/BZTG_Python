@@ -10,9 +10,9 @@
 # hänge Sie diese aneinander und geben Sie das Ergebnis aus.
 
 
-text1 = "Hello"
-text2 = "World"
+TEXT_1 = "Hello"
+TEXT_2 = "World"
 
-out = text1 + text2
+out = TEXT_1 + TEXT_2
 
 print(out)

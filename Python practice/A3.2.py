@@ -12,7 +12,8 @@ MAX_NUM = 100000000
 
 sumCount = 0
 
-for i in range(MAX_NUM + 2):
-    sumCount += 1/(i+1)
-
+for k in range(1, MAX_NUM + 1):
+    # print(i)
+    sumCount += 1/(k)
+    # sumCount = sumCount + 1/(k)
 print(f"Summe für {MAX_NUM} vorgänge: {sumCount}")

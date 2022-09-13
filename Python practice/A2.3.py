@@ -15,7 +15,7 @@
 
 inp = int(input("Zu prüfendes Jahr eingeben: "))
 
-if (inp // 4 == 0 or inp // 100 != 0 or inp // 400 == 0):
+if (inp % 4 == 0 and inp % 100 != 0 or inp % 400 == 0):
     # Schaltjahr
     print(f"{inp} ist ein Schaltjahr.")
 else:
