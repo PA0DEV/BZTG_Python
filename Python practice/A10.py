@@ -36,6 +36,7 @@ def encryptCaesar(input:str, k:int) -> str:
     return outStr
 
 
+
 print(encryptCaesar("Caesar", 3))
 
 def decryptCaesar(input:str, k:int) -> str:
