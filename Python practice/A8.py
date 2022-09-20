@@ -18,7 +18,7 @@
 import random
 
 
-def lotto() -> list:
+def lotto() -> list[int]:
     """
         Run a default lotto 6 out of 49
 
