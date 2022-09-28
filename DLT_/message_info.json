@@ -1,0 +1,12 @@
+{
+    "message_id": "8886438774cfea9d02ab4054e45d940b9d85befe3e05762d0f3dde4fed04ca71",
+    "network_id": 6514788332515804015,
+    "parents": [
+        "7d6618a79cefccb87b2164c2a9e359d2ffbf5cffbc43375afebcfd91d94b2f5d",
+        "7d6949a7a99bec8b5851435c14a6e1cb8eb5543b23dd3fd4eaa39111529e912d",
+        "a35cb5c1cf57ea0143b6c068455ae2a0e63fbc563fbb3c4321eaafb5c695c191",
+        "d50e435865c809703ae98481f234bf2999739af58a0eb8045a630c898a5b14e6"
+    ],
+    "payload": null,
+    "nonce": 5764607523034238845
+}

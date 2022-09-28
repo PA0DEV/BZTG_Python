@@ -24,6 +24,10 @@ def encryptCaesar(input:str, k:int) -> str:
         Return:
             returns the encrypted string
     """
+    if type(input) is not str:
+        raise TypeError("Input needs to be a string variable")
+    if type(k) is not int:
+        raise TypeError("K needs to be a int variable")
 
     charList = [*input]
     outStr = ""
@@ -35,9 +39,9 @@ def encryptCaesar(input:str, k:int) -> str:
 
     return outStr
 
+foo = encryptCaesar("Hallo Welt", 3)
 
-
-print(encryptCaesar("Caesar", 3))
+print(foo)
 
 def decryptCaesar(input:str, k:int) -> str:
     """
@@ -50,6 +54,10 @@ def decryptCaesar(input:str, k:int) -> str:
         Return:
             returns the decrypted string
     """
+    if type(input) is not str:
+        raise TypeError("Input needs to be a string variable")
+    if type(k) is not int:
+        raise TypeError("K needs to be a int variable")
 
     charList = [*input]
     outStr = ""
@@ -61,4 +69,4 @@ def decryptCaesar(input:str, k:int) -> str:
 
     return outStr
 
-print(decryptCaesar("Fdhvdu", 3))
+print(decryptCaesar(foo, 3))

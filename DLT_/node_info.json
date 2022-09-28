@@ -1,0 +1,22 @@
+{
+    "nodeinfo": {
+        "name": "HORNET",
+        "version": "1.2.1",
+        "is_healthy": true,
+        "network_id": "chrysalis-devnet",
+        "bech32_hrp": "atoi",
+        "min_pow_score": 2000.0,
+        "messages_per_second": 4.5,
+        "referenced_messages_per_second": 4.9,
+        "referenced_rate": 108.88888888888889,
+        "latest_milestone_timestamp": 1664276319,
+        "latest_milestone_index": 3840754,
+        "confirmed_milestone_index": 3840754,
+        "pruning_index": 3780257,
+        "features": [
+            "PoW",
+            "Participation"
+        ]
+    },
+    "url": "https://api.lb-0.h.chrysalis-devnet.iota.cafe"
+}
