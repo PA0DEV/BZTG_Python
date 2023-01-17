@@ -1,0 +1,793 @@
+[
+    {
+        "transportid": "23964376768701928340034",
+        "transportstation": "FedEx Wagen 005",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "24.09.2022 08: 03: 35"
+    },
+    {
+        "transportid": "77631003455214677542311",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus7-Zone0",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "16.09.2022 09: 26: 13"
+    },
+    {
+        "transportid": "46204863139457546291334",
+        "transportstation": "DHL_KT_223",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "06.09.2022 08: 15: 12"
+    },
+    {
+        "transportid": "84552276793340958450995",
+        "transportstation": "DHL_KT_223",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "24.09.2022 20: 14: 52"
+    },
+    {
+        "transportid": "55638471099438572108556",
+        "transportstation": "Hermes Kühlwagen 885",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "24.09.2022 18: 17: 52"
+    },
+    {
+        "transportid": "72359278599178561029675",
+        "transportstation": "DHL_KT_223",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "06.09.2022 08: 15: 12"
+    },
+    {
+        "transportid": "23964376768701928340034",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus21-Zone3",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "23.09.2022 14: 15: 15"
+    },
+    {
+        "transportid": "99346757838434834886542",
+        "transportstation": "GVZ Bremen Kühlhaus 3",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "12.09.2022 14: 56: 23"
+    },
+    {
+        "transportid": "84552276793340958450995",
+        "transportstation": "Logisticcenter Antwerpen 4",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "26.09.2022 06: 33: 22"
+    },
+    {
+        "transportid": "77631003455214677542311",
+        "transportstation": "DHL_KT_456",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "16.09.2022 11: 42: 44"
+    },
+    {
+        "transportid": "15668407856331648336231",
+        "transportstation": "DHL_KT_334",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "08.09.2022 10: 32: 55"
+    },
+    {
+        "transportid": "99346757838434834886542",
+        "transportstation": "BHL Wagen 126",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "13.09.2022 13: 55: 37"
+    },
+    {
+        "transportid": "55638471099438572108556",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone4",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "24.09.2022 14: 06: 32"
+    },
+    {
+        "transportid": "96853785349211053482893",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus7-Zone5",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "23.09.2022 09: 45: 32"
+    },
+    {
+        "transportid": "84356113249506843372979",
+        "transportstation": "Kühlhaus Flensburg",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "22.09.2022 23: 04: 09"
+    },
+    {
+        "transportid": "23964376768701928340034",
+        "transportstation": "DHL_KT_441",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "23.09.2022 19: 37: 06"
+    },
+    {
+        "transportid": "67424886737245693583645",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone3",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "27.09.2022 18: 19: 32"
+    },
+    {
+        "transportid": "23964376768701928340034",
+        "transportstation": "FedEx Wagen 005",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "24.09.2022 07: 35: 21"
+    },
+    {
+        "transportid": "34778534098134729847267",
+        "transportstation": "DHL_KT_339",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "20.09.2022 01: 34: 16"
+    },
+    {
+        "transportid": "99346757838434834886542",
+        "transportstation": "DHL_KT_223",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "12.09.2022 14: 47: 32"
+    },
+    {
+        "transportid": "96853785349211053482893",
+        "transportstation": "DHL_KT_582",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "23.09.2022 19: 47: 34"
+    },
+    {
+        "transportid": "23964376768701928340034",
+        "transportstation": "DHL_KT_441",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "23.09.2022 17: 35: 42"
+    },
+    {
+        "transportid": "34778534098134729847267",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone3",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "19.09.2022 20: 13: 51"
+    },
+    {
+        "transportid": "84356113249506843372979",
+        "transportstation": "Kühlhaus Flensburg",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "23.09.2022 04: 25: 33"
+    },
+    {
+        "transportid": "85746762813849598680239",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus6-Zone2",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "29.09.2022 19: 05: 33"
+    },
+    {
+        "transportid": "46204863139457546291334",
+        "transportstation": "Süper Logistic Berlin Kühlhaus Ost Zone 1",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "07.09.2022 06: 24: 22"
+    },
+    {
+        "transportid": "85746762813849598680239",
+        "transportstation": "UPS Wagen 136",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "30.09.2022 06: 32: 11"
+    },
+    {
+        "transportid": "34778534098134729847267",
+        "transportstation": "Darmstadt Local Logistics Wagen 15",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "07.09.2022 06: 32: 11"
+    },
+    {
+        "transportid": "84552276793340958450995",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone3",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "24.09.2022 17: 06: 43"
+    },
+    {
+        "transportid": "85746762813849598680239",
+        "transportstation": "GVZ Kühlhaus 3",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "29.09.2022 20: 07: 09"
+    },
+    {
+        "transportid": "67424886737245693583645",
+        "transportstation": "Mia_san_Mia Logistik Wagen 1",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "28.09.2022 09: 13: 52"
+    },
+    {
+        "transportid": "46204863139457546291334",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone4",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "06.09.2022 08: 05: 33"
+    },
+    {
+        "transportid": "84356113249506843372979",
+        "transportstation": "DHL_KT_1033",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "22.09.2022 17: 30: 01"
+    },
+    {
+        "transportid": "72359278599178561029675",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone4",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "05.09.2022 13: 12: 25"
+    },
+    {
+        "transportid": "55638471099438572108556",
+        "transportstation": "Transportkombinat Desden Kühltransportfahrzeug Nummer 33",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "25.09.2022 06: 52: 18"
+    },
+    {
+        "transportid": "85746762813849598680239",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus6-Zone2",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "29.09.2022 12: 12: 25"
+    },
+    {
+        "transportid": "67424886737245693583645",
+        "transportstation": "DHL_KT_792",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "27.09.2022 18: 23: 12"
+    },
+    {
+        "transportid": "72359278599178561029675",
+        "transportstation": "Süper Logistic Berlin Kühlhaus Ost Zone 1",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "06.09.2022 12: 07: 09"
+    },
+    {
+        "transportid": "34778534098134729847267",
+        "transportstation": "Darmstadt Local Logistics Wagen 15",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "07.09.2022 07: 13: 35"
+    },
+    {
+        "transportid": "72359278599178561029675",
+        "transportstation": "DHL_KT_223",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "06.09.2022 12: 02: 56"
+    },
+    {
+        "transportid": "84552276793340958450995",
+        "transportstation": "Antwerp-Trans Waagen 21",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "26.09.2022 06: 37: 11"
+    },
+    {
+        "transportid": "77631003455214677542311",
+        "transportstation": "DHL Wagen 337",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "18.09.2022 05: 52: 23"
+    },
+    {
+        "transportid": "34778534098134729847267",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone3",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "19.09.2022 20: 44: 56"
+    },
+    {
+        "transportid": "15668407856331648336231",
+        "transportstation": "DHL_KT_334",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "08.09.2022 12: 33: 55"
+    },
+    {
+        "transportid": "46204863139457546291334",
+        "transportstation": "DHL Wagen 126",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "07.09.2022 07: 01: 45"
+    },
+    {
+        "transportid": "23964376768701928340034",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus1-Zone3",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "23.09.2022 17: 25: 43"
+    },
+    {
+        "transportid": "77631003455214677542311",
+        "transportstation": "GVZ Bielefeld_gibt_es_gar_nicht",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "16.09.2022 11: 49: 59"
+    },
+    {
+        "transportid": "46204863139457546291334",
+        "transportstation": "DHL_KT_223",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "06.09.2022 12: 02: 56"
+    },
+    {
+        "transportid": "84356113249506843372979",
+        "transportstation": "Dansk Logistik Varevogne 23",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "23.09.2022 08: 07: 32"
+    },
+    {
+        "transportid": "15668407856331648336231",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone4",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "08.09.2022 10: 22: 24"
+    },
+    {
+        "transportid": "15668407856331648336231",
+        "transportstation": "HH Logistik Wagen 234",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "09.09.2022 08: 15: 42"
+    },
+    {
+        "transportid": "68345254400506854834562",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus1-Zone1",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "25.09.2022 10: 23: 33"
+    },
+    {
+        "transportid": "46204863139457546291334",
+        "transportstation": "Süper Logistic Berlin Kühlhaus Ost Zone 1",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "06.09.2022 12: 07: 09"
+    },
+    {
+        "transportid": "64296734612883933474299",
+        "transportstation": "DHL_KT_445",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "20.09.2022 21: 10: 11"
+    },
+    {
+        "transportid": "72359278599178561029675",
+        "transportstation": "BHL Wagen 126",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "07.09.2022 06: 32: 11"
+    },
+    {
+        "transportid": "72359278599178561029675",
+        "transportstation": "Süper Logistic Berlin Kühlhaus Ost Zone 1",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "07.09.2022 06: 24: 22"
+    },
+    {
+        "transportid": "77631003455214677542311",
+        "transportstation": "DHL_KT_456",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "16.09.2022 09: 31: 17"
+    },
+    {
+        "transportid": "67424886737245693583645",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone3",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "27.09.2022 10: 13: 15"
+    },
+    {
+        "transportid": "55638471099438572108556",
+        "transportstation": "GVZ Dresden Kühlhaus 12 Zone 5",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "24.09.2022 21: 01: 09"
+    },
+    {
+        "transportid": "15668407856331648336231",
+        "transportstation": "HH Logistik Wagen 234",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "09.09.2022 06: 18: 34"
+    },
+    {
+        "transportid": "67424886737245693583645",
+        "transportstation": "GVZ München Area 13",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "27.09.2022 22: 53: 09"
+    },
+    {
+        "transportid": "55638471099438572108556",
+        "transportstation": "GVZ Dresden Kühlhaus 12 Zone 5",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "25.09.2022 06: 46: 12"
+    },
+    {
+        "transportid": "85746762813849598680239",
+        "transportstation": "UPS Wagen 136",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "30.09.2022 08: 01: 45"
+    },
+    {
+        "transportid": "68345254400506854834562",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus1-Zone1",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "25.09.2022 08: 18: 23"
+    },
+    {
+        "transportid": "77631003455214677542311",
+        "transportstation": "GVZ Bielefeld_gibt_es_gar_nicht",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "17.09.2022 06: 05: 25"
+    },
+    {
+        "transportid": "84356113249506843372979",
+        "transportstation": "DHL_KT_1033",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "22.09.2022 22: 56: 17"
+    },
+    {
+        "transportid": "68345254400506854834562",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus1-Zone1",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "25.09.2022 08: 17: 34"
+    },
+    {
+        "transportid": "64296734612883933474299",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus3-Zone3",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "20.09.2022 06: 15: 53"
+    },
+    {
+        "transportid": "85746762813849598680239",
+        "transportstation": "DHL_KT_266",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "29.09.2022 19: 13: 12"
+    },
+    {
+        "transportid": "77631003455214677542311",
+        "transportstation": "DHL Wagen 337",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "17.09.2022 23: 35: 41"
+    },
+    {
+        "transportid": "99346757838434834886542",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus3-Zone2",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "12.09.2022 11: 23: 36"
+    },
+    {
+        "transportid": "99346757838434834886542",
+        "transportstation": "GVZ Bremen Kühlhaus 3",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "13.09.2022 07: 47: 12"
+    },
+    {
+        "transportid": "84552276793340958450995",
+        "transportstation": "Antwerp-Trans Waagen 21",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "26.09.2022 8: 45: 45"
+    },
+    {
+        "transportid": "46204863139457546291334",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone4",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "05.09.2022 13: 12: 25"
+    },
+    {
+        "transportid": "84356113249506843372979",
+        "transportstation": "Dansk Logistik Varevogne 23",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "23.09.2022 06: 34: 31"
+    },
+    {
+        "transportid": "68345254400506854834562",
+        "transportstation": "DHL_KT_612",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "25.09.2022 10: 29: 14"
+    },
+    {
+        "transportid": "15668407856331648336231",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone4",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "08.09.2022 08: 13: 14"
+    },
+    {
+        "transportid": "67424886737245693583645",
+        "transportstation": "Mia_san_Mia Logistik Wagen 1",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "28.09.2022 06: 32: 11"
+    },
+    {
+        "transportid": "55638471099438572108556",
+        "transportstation": "Transportkombinat Desden Kühltransportfahrzeug Nummer 33",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "07.09.2022 07: 01: 45"
+    },
+    {
+        "transportid": "68345254400506854834562",
+        "transportstation": "DHL_KT_612",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "25.09.2022 12: 07: 56"
+    },
+    {
+        "transportid": "55638471099438572108556",
+        "transportstation": "Hermes Kühlwagen 885",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "24.09.2022 21: 02: 45"
+    },
+    {
+        "transportid": "34778534098134729847267",
+        "transportstation": "Logistikzentrum Darmstadt",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "20.09.2022 01: 36: 29"
+    },
+    {
+        "transportid": "67424886737245693583645",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone3",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "27.09.2022 18: 07: 32"
+    },
+    {
+        "transportid": "85746762813849598680239",
+        "transportstation": "DHL_KT_266",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "29.09.2022 20: 02: 56"
+    },
+    {
+        "transportid": "34778534098134729847267",
+        "transportstation": "Logistikzentrum Darmstadt",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "20.09.2022 06: 24: 22"
+    },
+    {
+        "transportid": "67424886737245693583645",
+        "transportstation": "DHL_KT_792",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "27.09.2022 22: 45: 36"
+    },
+    {
+        "transportid": "46204863139457546291334",
+        "transportstation": "DHL Wagen 126",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "07.09.2022 06: 32: 11"
+    },
+    {
+        "transportid": "77631003455214677542311",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus7-Zone0",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "16.09.2022 09: 26: 13"
+    },
+    {
+        "transportid": "73491878556297128760578",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus1-Zone2",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "11.09.2022 04: 13: 45"
+    },
+    {
+        "transportid": "34778534098134729847267",
+        "transportstation": "DHL_KT_339",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "19.09.2022 20: 50: 15"
+    },
+    {
+        "transportid": "68345254400506854834562",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus1-Zone1",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "25.09.2022 07: 12: 25"
+    },
+    {
+        "transportid": "72359278599178561029675",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone4",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "06.09.2022 08: 05: 33"
+    },
+    {
+        "transportid": "15668407856331648336231",
+        "transportstation": "GVZ HH Sued Gebäude 13 Zone 8",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "08.09.2022 12: 38: 07"
+    },
+    {
+        "transportid": "99346757838434834886542",
+        "transportstation": "DHL_KT_110",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "12.09.2022 11: 28: 09"
+    },
+    {
+        "transportid": "96853785349211053482893",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus1-Zone2",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "23.09.2022 18: 21: 06"
+    },
+    {
+        "transportid": "84552276793340958450995",
+        "transportstation": "Logisticcenter Antwerpen 4",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "25.09.2022 02: 32: 05"
+    },
+    {
+        "transportid": "15668407856331648336231",
+        "transportstation": "GVZ HH Sued Gebäude 13 Zone 8",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "09.09.2022 06: 12: 56"
+    },
+    {
+        "transportid": "84356113249506843372979",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone5",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "22.09.2022 17: 25: 33"
+    },
+    {
+        "transportid": "99346757838434834886542",
+        "transportstation": "BHL Wagen 126",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "13.09.2022 12: 28: 19"
+    },
+    {
+        "transportid": "73491878556297128760578",
+        "transportstation": "DHL_KT_223",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "11.09.2022 08: 10: 16"
+    },
+    {
+        "transportid": "73491878556297128760578",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus1-Zone2",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "11.09.2022 08: 01: 02"
+    },
+    {
+        "transportid": "84552276793340958450995",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone3",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "24.09.2022 12: 12: 25"
+    },
+    {
+        "transportid": "72359278599178561029675",
+        "transportstation": "BHL Wagen 126",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "07.09.2022 07: 01: 45"
+    },
+    {
+        "transportid": "55638471099438572108556",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone4",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "24.09.2022 11: 11: 11"
+    },
+    {
+        "transportid": "85746762813849598680239",
+        "transportstation": "GVZ Kühlhaus 3",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "30.09.2022 06: 23: 22"
+    },
+    {
+        "transportid": "96853785349211053482893",
+        "transportstation": "DHL_KT_582",
+        "category": "KT",
+        "direction": "in",
+        "timestamp": "23.09.2022 18: 21: 06"
+    },
+    {
+        "transportid": "99346757838434834886542",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus3-Zone2",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "11.09.2022 10: 35: 07"
+    },
+    {
+        "transportid": "67424886737245693583645",
+        "transportstation": "GVZ München Area 13",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "28.09.2022 06: 24: 22"
+    },
+    {
+        "transportid": "73491878556297128760578",
+        "transportstation": "DHL_KT_223",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "11.09.2022 9: 05: 34"
+    },
+    {
+        "transportid": "84552276793340958450995",
+        "transportstation": "DHL_KT_223",
+        "category": "KT",
+        "direction": "out",
+        "timestamp": "25.09.2022 02: 24: 36"
+    },
+    {
+        "transportid": "84356113249506843372979",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus2-Zone5",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "22.09.2022 16: 17: 22"
+    },
+    {
+        "transportid": "64296734612883933474299",
+        "transportstation": "GVZ-Hildesheim-Kühlhaus3-Zone3",
+        "category": "GVZ",
+        "direction": "out",
+        "timestamp": "20.09.2022 21: 04: 32"
+    },
+    {
+        "transportid": "23964376768701928340034",
+        "transportstation": "GVZ Lübeck Kühlhaus 1",
+        "category": "GVZ",
+        "direction": "in",
+        "timestamp": "23.09.2022 19: 43: 09"
+    }
+]

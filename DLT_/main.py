@@ -1,23 +1,15 @@
 import iota_client
-
-# create a client with a node
-client = iota_client.Client(
-    nodes_name_password=[['https://api.lb-0.h.chrysalis-devnet.iota.cafe']])
-
-# print(client.get_info())
-
-message = client.message(
- index="BZTG-Bio-Döner", data=[8]
-)
-
-msg_id = message["message_id"]
-
-message = client.get_message_data(msg_id)
-message_meta = client.get_message_metadata(msg_id)
-
-print("Message meta data:")
-print(message_meta)
-print("Message data:")
-print(message)
-# print(message)
-# print(msg_id)
+import json
+# Knoten aus dem Chrysalis-Devnet
+node_url = 'https://api.lb-0.h.chrysalis-devnet.iota.cafe'
+# Cient mit einem Knoten verbinden
+client = iota_client.Client(nodes_name_password=[[node_url]])
+# Messages zu einem Inxex suchen
+mlist = client.find_messages(indexation_keys=["Food Solution Hildesheim"])
+for message in mlist: # Schleife über alle gefundenen Messages
+    pl = message['payload']['indexation'][0]['data'] # Daten => Liste mit Dezimalwert der Einzelzeichen
+s = ''.join(chr(val) for val in pl) # Dezimalwerte in String umwandeln
+d = json.loads(s) # Dictionary aus JSON-String erzeugen
+for key in d: # Alle Einträge des Dictionary durchgehen
+    print(key + ': ' + str(d[key])) # Schlüssel und Schlüsselwert ausgeben
+print('------------------------------------------')
