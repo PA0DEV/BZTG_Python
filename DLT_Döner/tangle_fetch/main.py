@@ -53,7 +53,7 @@ def check_consistency(data:list[dict]) -> bool:
         # check if every 'out' tmestamp is after the matching 'in' timestamp
             elif not any(d['timestamp'] < entry['timestamp'] and d['transportstation'] == entry['transportstation'] for d in data):
                 return False, f"Station {entry['transportstation']} check-out timestamp is before check-in timestamp" 
-        # check if not more3 than one 'in' whithout 'out' is existing on the tangle
+        # check if not more than one 'in' whithout 'out' is existing on the tangle
         elif entry['direction'] == 'in':
             if not any(d['direction'] == 'out' and d['transportstation'] == entry['transportstation'] for d in data):
                 if check_history != '':
@@ -108,12 +108,14 @@ def check_data(entries:list[dict], transport_id:str):
             print("time whithout cooling: \u2714")
         else:
             print("time whithout cooling: \u274c")
+            print(c[1])
 
         c = check_total_transport_time(transport_data, 48)
         if c[0] == True:
             print("total transport time: \u2714")
         else:
             print("total transport time: \u274c")
+            print(c[1])
 
         print()
         return

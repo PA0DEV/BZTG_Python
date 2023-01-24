@@ -1,6 +1,7 @@
 import iota_client
 import json
 import datetime
+from termcolor import colored
 
 def fetch_data(node_url:str,index_key:str ) -> list[dict]:
     """
@@ -29,6 +30,8 @@ def fetch_data(node_url:str,index_key:str ) -> list[dict]:
     return json_list
 
 def check_consistency(data:list[dict]) -> tuple:
+    # jeder "out" hat einen "in"
+    
     return (False, "")
     
 def check_time_whithout_cooling(data:list[dict], max_time:int) -> tuple:
@@ -50,21 +53,21 @@ def check_data(entries:list[dict], id_to_check:str):
         transport_data = sorted(transport_data, key=lambda x: x['timestamp'])
         c = check_consistency(transport_data) 
         if  c[0] == True:
-            print("consistency: \u2714")
+            print("consistency: \u2705")
         else:
             print("consistency: \u274c")
             print(c[1])
 
         c = check_time_whithout_cooling(transport_data, 10)
         if c[0] == True:
-            print("time whithout cooling: \u2714")
+            print("time whithout cooling: \u2705")
         else:
             print("time whithout cooling: \u274c")
             print(c[1])
 
         c = check_total_transport_time(transport_data, 48)
         if c[0] == True:
-            print("total transport time: \u2714")
+            print("total transport time: \u2705")
         else:
             print("total transport time: \u274c")
             print(c[1])
@@ -76,7 +79,7 @@ def check_data(entries:list[dict], id_to_check:str):
 
 if __name__ == "__main__":
     tangle_data = fetch_data('https://api.lb-0.h.chrysalis-devnet.iota.cafe', 'Food Solution Hildesheim')
-
+    n = 0
     # transport_id = input("Bitte Transport ID eingeben:")
     transportIDs = [
         72359278599178561029675,
@@ -101,7 +104,7 @@ if __name__ == "__main__":
         76381745965049879836902]
     for e in transportIDs:
         print()
-        print(f"checking Transport id {e}...")
+        print(f"{n} checking Transport id {e}...")
 
         check_data(tangle_data, str(e))
-
+        n += 1
