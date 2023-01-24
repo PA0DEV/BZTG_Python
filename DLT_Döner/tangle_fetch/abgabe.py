@@ -60,17 +60,19 @@ def check_data(entries:list[dict], id_to_check:str):
             print("time whithout cooling: \u2714")
         else:
             print("time whithout cooling: \u274c")
+            print(c[1])
 
         c = check_total_transport_time(transport_data, 48)
         if c[0] == True:
             print("total transport time: \u2714")
         else:
             print("total transport time: \u274c")
+            print(c[1])
 
         print()
         return
     
-    print("Transport ID not found!\n")
+    print("Transport ID not found!")
 
 if __name__ == "__main__":
     tangle_data = fetch_data('https://api.lb-0.h.chrysalis-devnet.iota.cafe', 'Food Solution Hildesheim')
@@ -98,6 +100,7 @@ if __name__ == "__main__":
         13456783852887496020345,
         76381745965049879836902]
     for e in transportIDs:
+        print()
         print(f"checking Transport id {e}...")
 
         check_data(tangle_data, str(e))
