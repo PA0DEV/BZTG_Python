@@ -2,7 +2,6 @@ import iota_client
 import json
 import datetime
 
-
 def fetch_data(node_url:str,index_key:str ) -> list[dict]:
     """
     A fuction to fetch all data of an index key from a given DLT
@@ -30,61 +29,14 @@ def fetch_data(node_url:str,index_key:str ) -> list[dict]:
     return json_list
 
 def check_consistency(data:list[dict]) -> tuple:
-    """
-    A function to check for the consistency of the given data. 
-    Checks whether the entries make sense chronologically and 
-    whether there is an entry for check-in and check-out for each transport action.
-
-    Args:
-        data: The list of data to check for consistency.
-
-    Returns:
-        True if the data are consistent; False, if not.
-    """
-
-    check_history = ''
-
-
-    for entry in data:
-        # check if every 'out' hast a 'in' on the same station
-        if entry['direction'] == 'out':
-            if not any(d['direction'] == 'in' and d['transportstation'] == entry['transportstation'] for d in data):
-                return False, f"Missing check-in entry for transport station {entry['transportstation']}"
-        # check if every 'out' tmestamp is after the matching 'in' timestamp
-            elif not any(d['timestamp'] < entry['timestamp'] and d['transportstation'] == entry['transportstation'] for d in data):
-                return False, f"Station {entry['transportstation']} check-out timestamp is before check-in timestamp" 
-        # check if not more3 than one 'in' whithout 'out' is existing on the tangle
-        elif entry['direction'] == 'in':
-            if not any(d['direction'] == 'out' and d['transportstation'] == entry['transportstation'] for d in data):
-                if check_history != '':
-                    return False, f"More than one station has no check-out entry ({data['transportstation']} and {check_history})"
-
-    return True, "Transport consistency OK"
+    return (False, "")
     
 def check_time_whithout_cooling(data:list[dict], max_time:int) -> tuple:
+    return (False, "")
 
-    for i in range(1, len(data)):
-        if data[i]['direction'] == 'in':
-            in_ts = datetime.datetime.strptime(data[i]['timestamp'],"%d.%m.%Y %H:%M:%S")
-            out_ts = datetime.datetime.strptime(data[i-1]['timestamp'], "%d.%m.%Y %H:%M:%S")
-
-            time_diff = (in_ts - out_ts)
-
-            if time_diff.seconds >= (max_time*60):
-                return False, f"Max time whithout cooling exceeded between station '{data[i-1]['transportstation']}' and station '{data[i]['transportstation']}': {time_diff}"
-
-    return True, "Maximum time whithout cooling OK"
 
 def check_total_transport_time(data:list[dict], max_time:int) -> tuple:
-    start_ts = datetime.datetime.strptime(data[0]['timestamp'],"%d.%m.%Y %H:%M:%S")
-    end_ts = datetime.datetime.strptime(data[len(data)-1]['timestamp'],"%d.%m.%Y %H:%M:%S")
-
-    duration = end_ts-start_ts
-
-    if duration.seconds >= (max_time * 60 * 60):
-        return False, f"Maximum total transport time exceeded: {duration}"
-
-    return True, "Maximum transport time OK"
+    return (False, "")
 
 
 def check_data(entries:list[dict], id_to_check:str):
