@@ -29,7 +29,7 @@ def fetch_data(node_url:str,index_key:str ) -> list[dict]:
 
     return json_list
 
-def check_consistency(data:list[dict]) -> bool:
+def check_consistency(data:list[dict]) -> tuple:
     """
     A function to check for the consistency of the given data. 
     Checks whether the entries make sense chronologically and 
@@ -61,7 +61,7 @@ def check_consistency(data:list[dict]) -> bool:
 
     return True, "Transport consistency OK"
     
-def check_time_whithout_cooling(data:list[dict], max_time:int) -> bool:
+def check_time_whithout_cooling(data:list[dict], max_time:int) -> tuple:
 
     for i in range(1, len(data)):
         if data[i]['direction'] == 'in':
@@ -75,7 +75,7 @@ def check_time_whithout_cooling(data:list[dict], max_time:int) -> bool:
 
     return True, "Maximum time whithout cooling OK"
 
-def check_total_transport_time(data:list[dict], max_time:int):
+def check_total_transport_time(data:list[dict], max_time:int) -> tuple:
     start_ts = datetime.datetime.strptime(data[0]['timestamp'],"%d.%m.%Y %H:%M:%S")
     end_ts = datetime.datetime.strptime(data[len(data)-1]['timestamp'],"%d.%m.%Y %H:%M:%S")
 
@@ -87,11 +87,11 @@ def check_total_transport_time(data:list[dict], max_time:int):
     return True, "Maximum transport time OK"
 
 
-def check_data(entries:list[dict], transport_id:str):
+def check_data(entries:list[dict], id_to_check:str):
     # list of data from the wanted transport id
     transport_data = []
     for entry in entries:
-        if entry["transportid"] == transport_id:
+        if entry["transportid"] == id_to_check:
             transport_data.append(entry)
     
     if not transport_data == []:
@@ -149,3 +149,4 @@ if __name__ == "__main__":
         print(f"checking Transport id {e}...")
 
         check_data(tangle_data, str(e))
+
