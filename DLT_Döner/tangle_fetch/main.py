@@ -147,6 +147,9 @@ def check_data(entries:list[dict], transport_id:str) -> None:
         Returns:
             Nothing
     """
+
+    print(f"Überprüfe Transport-ID {e}...")
+
     # list of data from the wanted transport id
     transport_data = []
     for entry in entries:
@@ -184,12 +187,19 @@ def check_data(entries:list[dict], transport_id:str) -> None:
 #####################################################################################################
 #                                           Main code                                               #
 #####################################################################################################
+print()
+print('################################################')
+print('#       Überprüfung der Lieferkette            #')
+print('################################################')
+print('    * Laden der Lieferdaten')
 tangle_data = fetch_data('https://api.lb-0.h.chrysalis-devnet.iota.cafe', 'Food Solution Hildesheim')
+print('    * OK')
+print()
 """
 # for manual input of the transport ids
 while True:     
     print()                                          
-    transport_id = input("Bitte Transport ID eingeben:")      
+    transport_id = input("    * Bitte Transport ID eingeben:")      
     check_data(tangle_data, transport_id)
 """
 
@@ -217,6 +227,5 @@ transportIDs = [
     76381745965049879836902]
 
 for e in transportIDs:
-    print(f"Überprüfe Transport-ID {e}...")
 
     check_data(tangle_data, str(e))
